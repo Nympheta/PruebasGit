@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B91C9BEC-E49D-7EFB-2699-E0EB019E050B" name="consulta">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>31F29757-5148-8C77-A5BF-8DAB07574D94</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consulta" id="736CDFE5-FA00-9425-77BA-2DAEBDC97C5E">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>1190F89B-E970-9DD1-C592-4A0D8426FFF7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_medico" id="1796B2A6-10C1-F7D9-E779-398323EF0365">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>4FA33715-C445-02DF-A519-F0DB63C51DD9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20691D47-2E9E-F176-B6C8-0E46B521AA49" referredColumn="597CC36D-D0E3-A83D-B38B-55F2826DE46C"/>
+</associations>
+</Column>
+<Column name="id_paciente" id="30933970-48A1-4F96-F561-720F73020B80">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>A9253079-4311-F653-BEA5-10C1B6E3E11A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9CF1A2B-C1A1-5557-F21B-030F28540674" referredColumn="074A915E-F083-A686-FC24-FF0D10EC057C"/>
+</associations>
+</Column>
+<Column name="fecha" id="2D96E99C-87BA-0FA4-31BE-C981D1D6488F">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>7989B818-65E4-8A7D-A901-668C074DDE44</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2E2E7722-6575-A668-9A00-F763E773EAC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="42A3DE6F-D0B9-C070-6149-C7C6C29525DC">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>0E9E045B-708A-5435-AE2C-1E8A5FF1027B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2E2E7722-6575-A668-9A00-F763E773EAC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_box" id="D14BCC60-F2FE-6EB7-6382-0781AA3B5C3A">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>52CDE15E-D694-7F8A-F1C1-B26C053F2CB8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEE4DE7B-EF4E-1A38-F3AF-7F2C144D0FF3" referredColumn="5AE9EF99-31B5-34C6-48AB-F7666A0D11D6"/>
+</associations>
+</Column>
+<Column name="id_licencia" id="8DD95B88-75DF-24E1-CD37-60E4C03F521A">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>7FCDB6C0-5EAA-2693-37AE-C2B812FA645E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D459998-8E28-D83F-30F8-3E07D497C07E" referredColumn="8717A637-ADF1-2714-BFEC-335FC93605D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D78328FE-8C65-3E9C-90D4-E774DDCFFCE2" name="consulta_PK">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>C771030D-84B4-11FD-A51E-6ECD7A77B09B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="736CDFE5-FA00-9425-77BA-2DAEBDC97C5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0066A568-66EC-3EA6-C9B2-8512B37269DE" name="consulta_box_FK">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D14BCC60-F2FE-6EB7-6382-0781AA3B5C3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F41204F6-BE9F-E259-B224-F536A5F3116D" name="consulta_licencia_FK">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DD95B88-75DF-24E1-CD37-60E4C03F521A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B68FDD8-2F90-09AA-8036-024C65DE06B8" name="consulta_medico_FK">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1796B2A6-10C1-F7D9-E779-398323EF0365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB32D06E-0753-AC9F-6F17-1DF2AC50FAB8" name="consulta_paciente_FK">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30933970-48A1-4F96-F561-720F73020B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

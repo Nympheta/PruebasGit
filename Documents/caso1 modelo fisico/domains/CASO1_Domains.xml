@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="CASO1_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="0A2B2A48-DA9D-74B7-FD77-36DCD68499F0">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>CASO1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="2E2E7722-6575-A668-9A00-F763E773EAC8">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>CASO1_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="6E0225A8-BBAC-E938-4786-71A22B4D519F">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>CASO1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="778D756C-1CB9-2C89-177C-50E23BC0F616">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>CASO1_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="FFA4FDB1-AAB6-03C7-ABB3-8879CE183711">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>CASO1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

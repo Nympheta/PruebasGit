@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38F154D6-6635-7898-5D2A-732FFDAB9F28" containerWithKeyObject="58944670-08FC-528F-857C-864343A32BA7" localFKIndex="77BCD031-2638-9163-A192-00FEA58F5242" name="paciente_direccion_FK">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>6C95F472-660A-5686-7353-E46B3C8CE1EC</importedID>
+<referredTableLongName>direccion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F284899D-B818-17A7-7521-CF62E1A224AD</referredTableID>
+<keyObject>BA9EF335-7556-040D-9DD0-627AB3862DA2</keyObject>
+<referredKeyID>BA9EF335-7556-040D-9DD0-627AB3862DA2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_direccion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B7AE508-9ED3-7008-549D-E0EAA1EF8CC2" name="licencia">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>E5CA68EA-9A22-1A6D-A76E-F2B3D786CDA2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_licencia" id="8717A637-ADF1-2714-BFEC-335FC93605D0">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>F6E2E6F7-651E-B3E1-981D-126E553A7668</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_diagnostico" id="FCFE31A6-7DA7-C0C6-CD1A-8DE588A1D6BC">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>75F730A3-4A0E-7A30-34DD-5B83CF67B46E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="352DDE29-9EF8-552D-DADC-F05C635F08B0" referredColumn="078A0AF0-2963-76B5-A261-6075D56E5046"/>
+</associations>
+</Column>
+<Column name="id_medico" id="E0423649-6540-BA97-6F15-75FE21860ECD">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>BF8B803C-6A4E-E56E-5423-095D17AB8887</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaIn" id="DDB36587-162D-83DE-CD60-59D15FA609B2">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>8D00FE4A-FDDF-E1AA-6B92-559612D8C2B9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2E2E7722-6575-A668-9A00-F763E773EAC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaTerm" id="CDE787EC-8787-19E4-EEC7-10D15D3F9CB8">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>997D323C-4816-CCA4-0ED7-2573C6343DF4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2E2E7722-6575-A668-9A00-F763E773EAC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52190E7C-3C21-DAAF-1F16-0D6C98EE121D" name="licencia_PK">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>9BF8C3BA-B1C4-4BE2-B68A-959A7ED40ECC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8717A637-ADF1-2714-BFEC-335FC93605D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9275038-F5D8-D15A-8337-9B7F4D875BAD" name="licencia_diagnostico_FK">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCFE31A6-7DA7-C0C6-CD1A-8DE588A1D6BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

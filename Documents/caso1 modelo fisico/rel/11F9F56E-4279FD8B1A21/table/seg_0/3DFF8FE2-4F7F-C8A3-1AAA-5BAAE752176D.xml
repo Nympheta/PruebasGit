@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DFF8FE2-4F7F-C8A3-1AAA-5BAAE752176D" name="especialidad">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>67323E44-7376-0055-775A-C58419B6B27E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_especialidad" id="CAD10E8C-5E32-D3D6-BAF9-209E06E06F7B">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>23AD0E8B-FD90-C3E2-17BB-6004DB3E23F1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="5F8BC381-8354-FE96-5826-548553A63123">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>C614EE19-5560-73D1-54EA-AAED0AAE5766</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0A2B2A48-DA9D-74B7-FD77-36DCD68499F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_medico" id="2B7303BC-62D9-6A21-48DD-C9C4E80AAC16">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>F4CDD84A-EC52-1045-1624-CCE4D4ECD484</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>778D756C-1CB9-2C89-177C-50E23BC0F616</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40F21D34-7332-741F-6D66-51B8C43DB1AE" referredColumn="597CC36D-D0E3-A83D-B38B-55F2826DE46C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9ED05387-F49F-959F-A235-A5D577C9DEAD" name="especialidad_PK">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>921317A0-B8B5-03E6-EE12-2BA62C36B842</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAD10E8C-5E32-D3D6-BAF9-209E06E06F7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="277AD058-00E4-1DDD-E702-3BDC17E30B84" name="especialidad_medico_FK">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B7303BC-62D9-6A21-48DD-C9C4E80AAC16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

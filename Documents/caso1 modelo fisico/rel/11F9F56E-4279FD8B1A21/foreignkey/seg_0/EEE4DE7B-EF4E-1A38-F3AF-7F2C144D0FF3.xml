@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEE4DE7B-EF4E-1A38-F3AF-7F2C144D0FF3" containerWithKeyObject="B91C9BEC-E49D-7EFB-2699-E0EB019E050B" localFKIndex="0066A568-66EC-3EA6-C9B2-8512B37269DE" name="consulta_box_FK">
+<sourceDDLFile>CASO1.sql</sourceDDLFile>
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:52:14 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<importedID>993D6768-02BC-75B9-478E-B420469CC1D3</importedID>
+<referredTableLongName>box</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD93CF55-F594-9529-DBFB-BB8F4BF46D80</referredTableID>
+<keyObject>DC3F462A-F80A-57B5-2E72-BEE0186BB996</keyObject>
+<referredKeyID>DC3F462A-F80A-57B5-2E72-BEE0186BB996</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_box</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

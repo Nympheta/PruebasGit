@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="caso1 modelo fisico" id="F4D9365C-DF32-9A6B-D708-3D19E142322E" version="3.5">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-15 23:50:39 UTC</createdTime>
+<ownerDesignName>caso1 modelo fisico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F4D9365C-DF32-9A6B-D708-3D19E142322E</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D5639A89-1E15-F2AD-E2A2-A45891A375D2">
+<designStoragePath>C:\CASO1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
