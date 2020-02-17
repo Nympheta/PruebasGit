@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DAAARA" id="CE946D0B-6582-47D8-6216-F4E76DF2E92D" version="3.5">
+<createdBy>Natalia</createdBy>
+<createdTime>2020-02-17 22:42:51 UTC</createdTime>
+<ownerDesignName>DAAARA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CE946D0B-6582-47D8-6216-F4E76DF2E92D</designId>
+</OSDM_Design>
